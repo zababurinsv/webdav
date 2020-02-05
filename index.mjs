@@ -11,6 +11,10 @@ import dotenv from "dotenv"
 dotenv.config()
 const highWaterMark =  2;
 import whitelist from './whitelist/whitelist.mjs'
+import git from "simple-git";
+
+
+// const simpleGit = simple_git(workingDirPath);
 let app = express();
 app.use(compression())
 app.use(cors({ credentials: true }));
