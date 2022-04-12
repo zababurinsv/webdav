@@ -30,7 +30,7 @@
     "express": "^4.17.1",
     "express-enqueue": "^1.0.0",
     "express-formidable": "^1.2.0",
-    "simple-git": "^1.131.0",
+    "simple-git": "^3.5.0",
     "webdav": "^3.0.0"
   },
   "devDependencies": {
